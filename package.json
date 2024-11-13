@@ -1,0 +1,38 @@
+{
+  "name": "whatsapp-chatgpt-bot-demo",
+  "version": "1.0.0",
+  "private": true,
+  "license": "MIT",
+  "engine": {
+    "node": ">=16"
+  },
+  "type": "module",
+  "scripts": {
+    "start": "node main.js",
+    "dev": "DEV=true npm run start",
+    "lint": "./node_modules/.bin/standard ."
+  },
+  "dependencies": {
+    "@lancedb/lancedb": "^0.12.0",
+    "@llm-tools/embedjs": "^0.1.17",
+    "@llm-tools/embedjs-lancedb": "^0.1.17",
+    "@llm-tools/embedjs-loader-csv": "^0.1.17",
+    "@llm-tools/embedjs-loader-markdown": "^0.1.17",
+    "@llm-tools/embedjs-loader-msoffice": "^0.1.17",
+    "@llm-tools/embedjs-loader-pdf": "^0.1.17",
+    "@llm-tools/embedjs-loader-sitemap": "^0.1.17",
+    "@llm-tools/embedjs-loader-web": "^0.1.17",
+    "@llm-tools/embedjs-loader-xml": "^0.1.17",
+    "@llm-tools/embedjs-loader-youtube": "^0.1.17",
+    "@llm-tools/embedjs-openai": "^0.1.17",
+    "apache-arrow": "^18.0.0",
+    "axios": "^1.3.6",
+    "express": "^4.18.2",
+    "ngrok": "^5.0.0-beta.2",
+    "nodemon": "^2.0.22",
+    "openai": "^4.14.2"
+  },
+  "devDependencies": {
+    "standard": "^17.1.0"
+  }
+}
